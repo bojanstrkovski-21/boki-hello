@@ -1,0 +1,3 @@
+#!/bin/bash
+sudo pacman -Rdd intel-ucode
+sudo pacman -S --noconfirm --needed nvidia-dkms nvidia-utils nvidia-settings opencl-nvidia lib32-nvidia-utils lib32-opencl-nvidia linux linux-headers && reboot

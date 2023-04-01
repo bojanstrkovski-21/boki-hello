@@ -1,0 +1,14 @@
+#!/bin/bash
+#set -e
+echo "#################################"
+echo "   Checking For System Updates   "
+echo "#################################"
+echo
+echo "Checking for System Updates...   "
+echo "#################################"
+echo
+sudo yay -Syyu
+echo
+echo "#################################"
+echo "      Updating Done! Exit Me     "
+echo "#################################"

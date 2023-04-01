@@ -1,0 +1,3 @@
+#!/bin/bash
+
+sudo pacman -S --noconfirm --needed kwave sbublime-text-4 ventoy-bin nomachine teamviewer xscreensaver system-monitoring-center bash-pipes cmatrix tty-clock-git wttr caffeine-ng kdenlive simplescreenrecorder yt-dlp solaar virt-manager-meta gparted && reboot
